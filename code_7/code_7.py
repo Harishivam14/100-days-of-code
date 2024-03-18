@@ -11,6 +11,7 @@ end_of_game = False
 lives = 6
 print(logo)
 
+
 display = []
 for _ in range(word_length):
     display += "_"
