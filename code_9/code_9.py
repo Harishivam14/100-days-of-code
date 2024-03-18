@@ -7,7 +7,6 @@ print(logo)
 bids = {}
 bidding_finished = False
 
-
 def find_highest_bidder(bidding_record):
   highest_bid = 0
   winner = ""
@@ -18,7 +17,6 @@ def find_highest_bidder(bidding_record):
       highest_bid = bid_amount
       winner = bidder
   print(f"The winner is {winner} with a bid of ${highest_bid}")
-
 
 while not bidding_finished:
   name = input("What is your name?: ")
